@@ -1,0 +1,619 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L Connector:USB_A J1
+U 1 1 5EA6DC96
+P 1700 2800
+F 0 "J1" H 1757 3267 50  0000 C CNN
+F 1 "USB_A" H 1757 3176 50  0000 C CNN
+F 2 "AvS_Connector:USB_A_Female" H 1850 2750 50  0001 C CNN
+F 3 " ~" H 1850 2750 50  0001 C CNN
+	1    1700 2800
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2000 2900 2100 2900
+Wire Wire Line
+	2100 2900 2100 2800
+Wire Wire Line
+	2100 2800 2000 2800
+Wire Wire Line
+	1600 3200 1600 3350
+Wire Wire Line
+	1600 3350 1700 3350
+Wire Wire Line
+	1700 3350 1700 3200
+$Comp
+L Device:Polyfuse F1
+U 1 1 5EA704AB
+P 2850 2600
+F 0 "F1" V 2625 2600 50  0000 C CNN
+F 1 "Polyfuse" V 2716 2600 50  0000 C CNN
+F 2 "Fuse:Fuse_1206_3216Metric_Pad1.42x1.75mm_HandSolder" H 2900 2400 50  0001 L CNN
+F 3 "~" H 2850 2600 50  0001 C CNN
+	1    2850 2600
+	0    1    1    0   
+$EndComp
+$Comp
+L Connector:Screw_Terminal_01x02 J2
+U 1 1 5EA71296
+P 2500 2950
+F 0 "J2" H 2580 2942 50  0000 L CNN
+F 1 "Screw_Terminal_01x02" H 2580 2851 50  0000 L CNN
+F 2 "TerminalBlock:TerminalBlock_bornier-2_P5.08mm" H 2500 2950 50  0001 C CNN
+F 3 "~" H 2500 2950 50  0001 C CNN
+	1    2500 2950
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2000 2600 2300 2600
+Wire Wire Line
+	2300 2950 2300 2600
+Connection ~ 2300 2600
+Wire Wire Line
+	2300 2600 2700 2600
+Wire Wire Line
+	2300 3050 2200 3050
+Wire Wire Line
+	2200 3050 2200 3350
+Wire Wire Line
+	2200 3350 1700 3350
+Connection ~ 1700 3350
+$Comp
+L power:GND #PWR03
+U 1 1 5EA72623
+P 1700 3550
+F 0 "#PWR03" H 1700 3300 50  0001 C CNN
+F 1 "GND" H 1705 3377 50  0000 C CNN
+F 2 "" H 1700 3550 50  0001 C CNN
+F 3 "" H 1700 3550 50  0001 C CNN
+	1    1700 3550
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+5V #PWR01
+U 1 1 5EA72A3A
+P 3300 2250
+F 0 "#PWR01" H 3300 2100 50  0001 C CNN
+F 1 "+5V" H 3315 2423 50  0000 C CNN
+F 2 "" H 3300 2250 50  0001 C CNN
+F 3 "" H 3300 2250 50  0001 C CNN
+	1    3300 2250
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3000 2600 3300 2600
+Wire Wire Line
+	3300 2600 3300 2250
+Wire Wire Line
+	1700 3550 1700 3350
+$Comp
+L Connector:USB_A J3
+U 1 1 5EA742CF
+P 3800 2800
+F 0 "J3" H 3857 3267 50  0000 C CNN
+F 1 "USB_A" H 3857 3176 50  0000 C CNN
+F 2 "AvS_Connector:USB_A_Female" H 3950 2750 50  0001 C CNN
+F 3 " ~" H 3950 2750 50  0001 C CNN
+	1    3800 2800
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4100 2900 4200 2900
+Wire Wire Line
+	4200 2900 4200 2800
+Wire Wire Line
+	4200 2800 4100 2800
+Wire Wire Line
+	3700 3200 3700 3350
+Wire Wire Line
+	3700 3350 3800 3350
+Wire Wire Line
+	3800 3350 3800 3200
+$Comp
+L Device:Polyfuse F2
+U 1 1 5EA742DF
+P 4950 2600
+F 0 "F2" V 4725 2600 50  0000 C CNN
+F 1 "Polyfuse" V 4816 2600 50  0000 C CNN
+F 2 "Fuse:Fuse_1206_3216Metric_Pad1.42x1.75mm_HandSolder" H 5000 2400 50  0001 L CNN
+F 3 "~" H 4950 2600 50  0001 C CNN
+	1    4950 2600
+	0    1    1    0   
+$EndComp
+$Comp
+L Connector:Screw_Terminal_01x02 J4
+U 1 1 5EA742E9
+P 4600 2950
+F 0 "J4" H 4680 2942 50  0000 L CNN
+F 1 "Screw_Terminal_01x02" H 4680 2851 50  0000 L CNN
+F 2 "TerminalBlock:TerminalBlock_bornier-2_P5.08mm" H 4600 2950 50  0001 C CNN
+F 3 "~" H 4600 2950 50  0001 C CNN
+	1    4600 2950
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4100 2600 4400 2600
+Wire Wire Line
+	4400 2950 4400 2600
+Connection ~ 4400 2600
+Wire Wire Line
+	4400 2600 4800 2600
+Wire Wire Line
+	4400 3050 4300 3050
+Wire Wire Line
+	4300 3050 4300 3350
+Wire Wire Line
+	4300 3350 3800 3350
+Connection ~ 3800 3350
+$Comp
+L power:GND #PWR04
+U 1 1 5EA742FB
+P 3800 3550
+F 0 "#PWR04" H 3800 3300 50  0001 C CNN
+F 1 "GND" H 3805 3377 50  0000 C CNN
+F 2 "" H 3800 3550 50  0001 C CNN
+F 3 "" H 3800 3550 50  0001 C CNN
+	1    3800 3550
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+5V #PWR02
+U 1 1 5EA74305
+P 9350 1700
+F 0 "#PWR02" H 9350 1550 50  0001 C CNN
+F 1 "+5V" H 9365 1873 50  0000 C CNN
+F 2 "" H 9350 1700 50  0001 C CNN
+F 3 "" H 9350 1700 50  0001 C CNN
+	1    9350 1700
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5100 2600 5400 2600
+Wire Wire Line
+	9350 2050 9350 1700
+Wire Wire Line
+	3800 3550 3800 3350
+$Comp
+L Connector:USB_A J5
+U 1 1 5EA7F167
+P 1650 4300
+F 0 "J5" H 1707 4767 50  0000 C CNN
+F 1 "USB_A" H 1707 4676 50  0000 C CNN
+F 2 "AvS_Connector:USB_A_Female" H 1800 4250 50  0001 C CNN
+F 3 " ~" H 1800 4250 50  0001 C CNN
+	1    1650 4300
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1950 4400 2050 4400
+Wire Wire Line
+	2050 4400 2050 4300
+Wire Wire Line
+	2050 4300 1950 4300
+Wire Wire Line
+	1550 4700 1550 4850
+Wire Wire Line
+	1550 4850 1650 4850
+Wire Wire Line
+	1650 4850 1650 4700
+$Comp
+L Device:Polyfuse F3
+U 1 1 5EA7F177
+P 2800 4100
+F 0 "F3" V 2575 4100 50  0000 C CNN
+F 1 "Polyfuse" V 2666 4100 50  0000 C CNN
+F 2 "Fuse:Fuse_1206_3216Metric_Pad1.42x1.75mm_HandSolder" H 2850 3900 50  0001 L CNN
+F 3 "~" H 2800 4100 50  0001 C CNN
+	1    2800 4100
+	0    1    1    0   
+$EndComp
+$Comp
+L Connector:Screw_Terminal_01x02 J6
+U 1 1 5EA7F181
+P 2450 4450
+F 0 "J6" H 2530 4442 50  0000 L CNN
+F 1 "Screw_Terminal_01x02" H 2530 4351 50  0000 L CNN
+F 2 "TerminalBlock:TerminalBlock_bornier-2_P5.08mm" H 2450 4450 50  0001 C CNN
+F 3 "~" H 2450 4450 50  0001 C CNN
+	1    2450 4450
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1950 4100 2250 4100
+Wire Wire Line
+	2250 4450 2250 4100
+Connection ~ 2250 4100
+Wire Wire Line
+	2250 4100 2650 4100
+Wire Wire Line
+	2250 4550 2150 4550
+Wire Wire Line
+	2150 4550 2150 4850
+Wire Wire Line
+	2150 4850 1650 4850
+Connection ~ 1650 4850
+$Comp
+L power:GND #PWR07
+U 1 1 5EA7F193
+P 1650 5050
+F 0 "#PWR07" H 1650 4800 50  0001 C CNN
+F 1 "GND" H 1655 4877 50  0000 C CNN
+F 2 "" H 1650 5050 50  0001 C CNN
+F 3 "" H 1650 5050 50  0001 C CNN
+	1    1650 5050
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+5V #PWR05
+U 1 1 5EA7F19D
+P 3250 3750
+F 0 "#PWR05" H 3250 3600 50  0001 C CNN
+F 1 "+5V" H 3265 3923 50  0000 C CNN
+F 2 "" H 3250 3750 50  0001 C CNN
+F 3 "" H 3250 3750 50  0001 C CNN
+	1    3250 3750
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2950 4100 3250 4100
+Wire Wire Line
+	3250 4100 3250 3750
+Wire Wire Line
+	1650 5050 1650 4850
+$Comp
+L Connector:USB_A J7
+U 1 1 5EA7F1AA
+P 3750 4300
+F 0 "J7" H 3807 4767 50  0000 C CNN
+F 1 "USB_A" H 3807 4676 50  0000 C CNN
+F 2 "AvS_Connector:USB_A_Female" H 3900 4250 50  0001 C CNN
+F 3 " ~" H 3900 4250 50  0001 C CNN
+	1    3750 4300
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4050 4400 4150 4400
+Wire Wire Line
+	4150 4400 4150 4300
+Wire Wire Line
+	4150 4300 4050 4300
+Wire Wire Line
+	3650 4700 3650 4850
+Wire Wire Line
+	3650 4850 3750 4850
+Wire Wire Line
+	3750 4850 3750 4700
+$Comp
+L Device:Polyfuse F4
+U 1 1 5EA7F1BA
+P 4900 4100
+F 0 "F4" V 4675 4100 50  0000 C CNN
+F 1 "Polyfuse" V 4766 4100 50  0000 C CNN
+F 2 "Fuse:Fuse_1206_3216Metric_Pad1.42x1.75mm_HandSolder" H 4950 3900 50  0001 L CNN
+F 3 "~" H 4900 4100 50  0001 C CNN
+	1    4900 4100
+	0    1    1    0   
+$EndComp
+$Comp
+L Connector:Screw_Terminal_01x02 J8
+U 1 1 5EA7F1C4
+P 4550 4450
+F 0 "J8" H 4630 4442 50  0000 L CNN
+F 1 "Screw_Terminal_01x02" H 4630 4351 50  0000 L CNN
+F 2 "TerminalBlock:TerminalBlock_bornier-2_P5.08mm" H 4550 4450 50  0001 C CNN
+F 3 "~" H 4550 4450 50  0001 C CNN
+	1    4550 4450
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4050 4100 4350 4100
+Wire Wire Line
+	4350 4450 4350 4100
+Connection ~ 4350 4100
+Wire Wire Line
+	4350 4100 4750 4100
+Wire Wire Line
+	4350 4550 4250 4550
+Wire Wire Line
+	4250 4550 4250 4850
+Wire Wire Line
+	4250 4850 3750 4850
+Connection ~ 3750 4850
+$Comp
+L power:GND #PWR08
+U 1 1 5EA7F1D6
+P 3750 5050
+F 0 "#PWR08" H 3750 4800 50  0001 C CNN
+F 1 "GND" H 3755 4877 50  0000 C CNN
+F 2 "" H 3750 5050 50  0001 C CNN
+F 3 "" H 3750 5050 50  0001 C CNN
+	1    3750 5050
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+5V #PWR06
+U 1 1 5EA7F1E0
+P 5350 3750
+F 0 "#PWR06" H 5350 3600 50  0001 C CNN
+F 1 "+5V" H 5365 3923 50  0000 C CNN
+F 2 "" H 5350 3750 50  0001 C CNN
+F 3 "" H 5350 3750 50  0001 C CNN
+	1    5350 3750
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5050 4100 5350 4100
+Wire Wire Line
+	5350 4100 5350 3750
+Wire Wire Line
+	3750 5050 3750 4850
+$Comp
+L power:GND #PWR09
+U 1 1 5EA86BF6
+P 1650 5350
+F 0 "#PWR09" H 1650 5100 50  0001 C CNN
+F 1 "GND" H 1655 5177 50  0000 C CNN
+F 2 "" H 1650 5350 50  0001 C CNN
+F 3 "" H 1650 5350 50  0001 C CNN
+	1    1650 5350
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR010
+U 1 1 5EA86C00
+P 3750 5350
+F 0 "#PWR010" H 3750 5100 50  0001 C CNN
+F 1 "GND" H 3755 5177 50  0000 C CNN
+F 2 "" H 3750 5350 50  0001 C CNN
+F 3 "" H 3750 5350 50  0001 C CNN
+	1    3750 5350
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:USB_A J9
+U 1 1 5EA86C0A
+P 1600 6100
+F 0 "J9" H 1657 6567 50  0000 C CNN
+F 1 "USB_A" H 1657 6476 50  0000 C CNN
+F 2 "AvS_Connector:USB_A_Female" H 1750 6050 50  0001 C CNN
+F 3 " ~" H 1750 6050 50  0001 C CNN
+	1    1600 6100
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1900 6200 2000 6200
+Wire Wire Line
+	2000 6200 2000 6100
+Wire Wire Line
+	2000 6100 1900 6100
+Wire Wire Line
+	1500 6500 1500 6650
+Wire Wire Line
+	1500 6650 1600 6650
+Wire Wire Line
+	1600 6650 1600 6500
+$Comp
+L Device:Polyfuse F5
+U 1 1 5EA86C1A
+P 2750 5900
+F 0 "F5" V 2525 5900 50  0000 C CNN
+F 1 "Polyfuse" V 2616 5900 50  0000 C CNN
+F 2 "Fuse:Fuse_1206_3216Metric_Pad1.42x1.75mm_HandSolder" H 2800 5700 50  0001 L CNN
+F 3 "~" H 2750 5900 50  0001 C CNN
+	1    2750 5900
+	0    1    1    0   
+$EndComp
+$Comp
+L Connector:Screw_Terminal_01x02 J10
+U 1 1 5EA86C24
+P 2400 6250
+F 0 "J10" H 2480 6242 50  0000 L CNN
+F 1 "Screw_Terminal_01x02" H 2480 6151 50  0000 L CNN
+F 2 "TerminalBlock:TerminalBlock_bornier-2_P5.08mm" H 2400 6250 50  0001 C CNN
+F 3 "~" H 2400 6250 50  0001 C CNN
+	1    2400 6250
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1900 5900 2200 5900
+Wire Wire Line
+	2200 6250 2200 5900
+Connection ~ 2200 5900
+Wire Wire Line
+	2200 5900 2600 5900
+Wire Wire Line
+	2200 6350 2100 6350
+Wire Wire Line
+	2100 6350 2100 6650
+Wire Wire Line
+	2100 6650 1600 6650
+Connection ~ 1600 6650
+$Comp
+L power:GND #PWR013
+U 1 1 5EA86C36
+P 1600 6850
+F 0 "#PWR013" H 1600 6600 50  0001 C CNN
+F 1 "GND" H 1605 6677 50  0000 C CNN
+F 2 "" H 1600 6850 50  0001 C CNN
+F 3 "" H 1600 6850 50  0001 C CNN
+	1    1600 6850
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+5V #PWR011
+U 1 1 5EA86C40
+P 3200 5550
+F 0 "#PWR011" H 3200 5400 50  0001 C CNN
+F 1 "+5V" H 3215 5723 50  0000 C CNN
+F 2 "" H 3200 5550 50  0001 C CNN
+F 3 "" H 3200 5550 50  0001 C CNN
+	1    3200 5550
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2900 5900 3200 5900
+Wire Wire Line
+	3200 5900 3200 5550
+Wire Wire Line
+	1600 6850 1600 6650
+$Comp
+L Connector:USB_A J11
+U 1 1 5EA86C4D
+P 3700 6100
+F 0 "J11" H 3757 6567 50  0000 C CNN
+F 1 "USB_A" H 3757 6476 50  0000 C CNN
+F 2 "AvS_Connector:USB_A_Female" H 3850 6050 50  0001 C CNN
+F 3 " ~" H 3850 6050 50  0001 C CNN
+	1    3700 6100
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4000 6200 4100 6200
+Wire Wire Line
+	4100 6200 4100 6100
+Wire Wire Line
+	4100 6100 4000 6100
+Wire Wire Line
+	3600 6500 3600 6650
+Wire Wire Line
+	3600 6650 3700 6650
+Wire Wire Line
+	3700 6650 3700 6500
+$Comp
+L Device:Polyfuse F6
+U 1 1 5EA86C5D
+P 4850 5900
+F 0 "F6" V 4625 5900 50  0000 C CNN
+F 1 "Polyfuse" V 4716 5900 50  0000 C CNN
+F 2 "Fuse:Fuse_1206_3216Metric_Pad1.42x1.75mm_HandSolder" H 4900 5700 50  0001 L CNN
+F 3 "~" H 4850 5900 50  0001 C CNN
+	1    4850 5900
+	0    1    1    0   
+$EndComp
+$Comp
+L Connector:Screw_Terminal_01x02 J12
+U 1 1 5EA86C67
+P 4500 6250
+F 0 "J12" H 4580 6242 50  0000 L CNN
+F 1 "Screw_Terminal_01x02" H 4580 6151 50  0000 L CNN
+F 2 "TerminalBlock:TerminalBlock_bornier-2_P5.08mm" H 4500 6250 50  0001 C CNN
+F 3 "~" H 4500 6250 50  0001 C CNN
+	1    4500 6250
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4000 5900 4300 5900
+Wire Wire Line
+	4300 6250 4300 5900
+Connection ~ 4300 5900
+Wire Wire Line
+	4300 5900 4700 5900
+Wire Wire Line
+	4300 6350 4200 6350
+Wire Wire Line
+	4200 6350 4200 6650
+Wire Wire Line
+	4200 6650 3700 6650
+Connection ~ 3700 6650
+$Comp
+L power:GND #PWR014
+U 1 1 5EA86C79
+P 3700 6850
+F 0 "#PWR014" H 3700 6600 50  0001 C CNN
+F 1 "GND" H 3705 6677 50  0000 C CNN
+F 2 "" H 3700 6850 50  0001 C CNN
+F 3 "" H 3700 6850 50  0001 C CNN
+	1    3700 6850
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+5V #PWR012
+U 1 1 5EA86C83
+P 5300 5550
+F 0 "#PWR012" H 5300 5400 50  0001 C CNN
+F 1 "+5V" H 5315 5723 50  0000 C CNN
+F 2 "" H 5300 5550 50  0001 C CNN
+F 3 "" H 5300 5550 50  0001 C CNN
+	1    5300 5550
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5000 5900 5300 5900
+Wire Wire Line
+	5300 5900 5300 5550
+Wire Wire Line
+	3700 6850 3700 6650
+$Comp
+L Connector:Screw_Terminal_01x02 J13
+U 1 1 5EA9D09A
+P 9550 2050
+F 0 "J13" H 9630 2042 50  0000 L CNN
+F 1 "Screw_Terminal_01x02" H 9630 1951 50  0000 L CNN
+F 2 "TerminalBlock:TerminalBlock_bornier-2_P5.08mm" H 9550 2050 50  0001 C CNN
+F 3 "~" H 9550 2050 50  0001 C CNN
+	1    9550 2050
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0101
+U 1 1 5EAA9652
+P 9350 2350
+F 0 "#PWR0101" H 9350 2100 50  0001 C CNN
+F 1 "GND" H 9355 2177 50  0000 C CNN
+F 2 "" H 9350 2350 50  0001 C CNN
+F 3 "" H 9350 2350 50  0001 C CNN
+	1    9350 2350
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9350 2350 9350 2150
+$Comp
+L power:+5V #PWR0102
+U 1 1 5EAAC97B
+P 5400 2250
+F 0 "#PWR0102" H 5400 2100 50  0001 C CNN
+F 1 "+5V" H 5415 2423 50  0000 C CNN
+F 2 "" H 5400 2250 50  0001 C CNN
+F 3 "" H 5400 2250 50  0001 C CNN
+	1    5400 2250
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5400 2600 5400 2250
+$Comp
+L Mechanical:MountingHole H1
+U 1 1 5EAB33A9
+P 9300 3550
+F 0 "H1" H 9400 3596 50  0000 L CNN
+F 1 "MountingHole" H 9400 3505 50  0000 L CNN
+F 2 "MountingHole:MountingHole_3.2mm_M3_Pad_Via" H 9300 3550 50  0001 C CNN
+F 3 "~" H 9300 3550 50  0001 C CNN
+	1    9300 3550
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H2
+U 1 1 5EAB63B3
+P 9300 3750
+F 0 "H2" H 9400 3796 50  0000 L CNN
+F 1 "MountingHole" H 9400 3705 50  0000 L CNN
+F 2 "MountingHole:MountingHole_3.2mm_M3_Pad_Via" H 9300 3750 50  0001 C CNN
+F 3 "~" H 9300 3750 50  0001 C CNN
+	1    9300 3750
+	1    0    0    -1  
+$EndComp
+$EndSCHEMATC
